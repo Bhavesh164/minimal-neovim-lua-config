@@ -9,3 +9,5 @@ vim.opt.shiftwidth=4
 vim.opt.shiftround=true
 vim.opt.expandtab=true
 
+--hop plugin keymap
+vim.keymap.set("n", "<leader>h", "<cmd>HopWord<cr>", options)

@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/bv/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "/home/bv/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/bv/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -158,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/bv/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["wilder.nvim"] = {
+    loaded = true,
+    path = "/home/bv/.local/share/nvim/site/pack/packer/start/wilder.nvim",
+    url = "https://github.com/gelguy/wilder.nvim"
   }
 }
 

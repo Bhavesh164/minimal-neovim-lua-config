@@ -37,6 +37,9 @@ return require('packer').startup(function(use)
   }
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
+
+  use 'phaazon/hop.nvim'
+  use 'gelguy/wilder.nvim' -- autocomplete in command line, search :updateremoteplugins if python not worked
  
   -- My plugins here
   -- use 'foo1/bar1.nvim'
