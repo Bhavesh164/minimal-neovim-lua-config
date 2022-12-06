@@ -2,8 +2,8 @@
 local nvim_lsp = require('lspconfig')
 vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
 
--- require('luasnip.loaders.from_vscode').lazy_load()
--- require("luasnip.loaders.from_snipmate").load({ include = { "php" } }) --for snippets to work need to install vim-snippets plugin
+require('luasnip.loaders.from_vscode').lazy_load()
+require("luasnip.loaders.from_snipmate").load({ include = { "php" } }) --for snippets to work need to install vim-snippets plugin
 
 local cmp = require('cmp')
 local luasnip = require('luasnip')

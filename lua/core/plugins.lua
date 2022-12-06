@@ -40,6 +40,9 @@ return require('packer').startup(function(use)
 
   use 'phaazon/hop.nvim'
   use 'gelguy/wilder.nvim' -- autocomplete in command line, search :updateremoteplugins if python not worked
+  use 'SirVer/ultisnips'  -- python3 -m pip install --user --upgrade pynvim
+  use 'honza/vim-snippets'
+
  
   -- My plugins here
   -- use 'foo1/bar1.nvim'

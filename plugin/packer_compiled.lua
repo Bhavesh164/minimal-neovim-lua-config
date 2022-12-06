@@ -164,6 +164,16 @@ _G.packer_plugins = {
     path = "/home/bv/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ultisnips = {
+    loaded = true,
+    path = "/home/bv/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
+  },
+  ["vim-snippets"] = {
+    loaded = true,
+    path = "/home/bv/.local/share/nvim/site/pack/packer/start/vim-snippets",
+    url = "https://github.com/honza/vim-snippets"
+  },
   ["wilder.nvim"] = {
     loaded = true,
     path = "/home/bv/.local/share/nvim/site/pack/packer/start/wilder.nvim",
